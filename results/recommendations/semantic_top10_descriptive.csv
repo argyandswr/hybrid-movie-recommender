@@ -1,0 +1,41 @@
+query_movie_id,query_title,query_year,rank,recommended_movie_id,title,genres,directors,vote_average,similarity,year,genre_overlap
+27205,Inception,2010,1,962675,Respect the Jux,"Crime, Drama, Thriller, Action",G.H. Goba,3.5,0.56087554,2022.0,0.16666666666666666
+27205,Inception,2010,2,1359,American Psycho,"Thriller, Drama, Crime",Mary Harron,7.4,0.5493959,2000.0,0.0
+27205,Inception,2010,3,438731,Vivegam,"Action, Thriller",Siva,4.9,0.5439439,2017.0,0.25
+27205,Inception,2010,4,302150,The Hunter's Prayer,"Action, Thriller",Jonathan Mostow,5.715,0.53778684,2017.0,0.25
+27205,Inception,2010,5,515853,Gultoo,"Crime, Drama",Janardhan Chikkanna,7.714,0.53668374,2018.0,0.0
+27205,Inception,2010,6,119283,Parker,"Action, Crime",Taylor Hackford,6.018,0.52558166,2013.0,0.25
+27205,Inception,2010,7,607231,ECCO,"Action, Crime, Drama",Ben Medina,3.8,0.5196881,2019.0,0.2
+27205,Inception,2010,8,649409,No Sudden Move,"Crime, Drama, Mystery",Steven Soderbergh,6.4,0.5162989,2021.0,0.0
+27205,Inception,2010,9,610236,Making a Deal with the Devil,Drama,Frank D'Angelo,0.0,0.51626873,2019.0,0.0
+27205,Inception,2010,10,281,Strange Days,"Crime, Drama, Science Fiction, Thriller",Kathryn Bigelow,6.989,0.5151849,1995.0,0.16666666666666666
+157336,Interstellar,2014,1,449575,The Beyond,Science Fiction,Hasraf Dulull,5.5,0.6550192,2018.0,0.3333333333333333
+157336,Interstellar,2014,2,1338318,Beachworld,,Brian Dailey,0.0,0.65328825,,0.0
+157336,Interstellar,2014,3,970700,In Space with Markiplier: Part 2,"Adventure, Comedy, Science Fiction",Mark Fischbach,9.7,0.6320019,2022.0,0.5
+157336,Interstellar,2014,4,48315,Time Runner,Science Fiction,Michael Mazo,4.694,0.6253781,1993.0,0.3333333333333333
+157336,Interstellar,2014,5,716355,Tomb,,Nick Attin,5.0,0.6165652,2016.0,0.0
+157336,Interstellar,2014,6,70981,Prometheus,"Science Fiction, Adventure, Mystery",Ridley Scott,6.535,0.60935974,2012.0,0.5
+157336,Interstellar,2014,7,553354,Space Explorers,"Animation, Family, Fantasy",Evan Tramel,0.0,0.55777156,2018.0,0.0
+157336,Interstellar,2014,8,650296,Explorers,"Science Fiction, Animation",Rob McLellan,0.0,0.5484489,2017.0,0.25
+157336,Interstellar,2014,9,502946,Mars,"Adventure, Animation, Science Fiction","Joe Bichard, Jack Cunningham",0.0,0.54476166,2010.0,0.5
+157336,Interstellar,2014,10,226540,Collider,Science Fiction,Jason Butler,3.6,0.5389757,2013.0,0.3333333333333333
+155,The Dark Knight,2008,1,49026,The Dark Knight Rises,"Action, Crime, Drama, Thriller",Christopher Nolan,7.777,0.6962755,2012.0,1.0
+155,The Dark Knight,2008,2,414906,The Batman,"Crime, Mystery, Thriller",Matt Reeves,7.705,0.696133,2022.0,0.4
+155,The Dark Knight,2008,3,14919,Batman: Mask of the Phantasm,"Action, Animation, Crime, Mystery","Kevin Altieri, Boyd Kirkland, Frank Paur, Dan Riba, Eric Radomski, Bruce Timm",7.486,0.6953855,1993.0,0.3333333333333333
+155,The Dark Knight,2008,4,1371696,The Batman Chronicles,"Action, Crime, TV Movie",Joseph Petruccio,0.0,0.6816002,2014.0,0.4
+155,The Dark Knight,2008,5,408220,Justice League Dark,"Animation, Action, Fantasy",Jay Oliva,7.294,0.6684294,2017.0,0.16666666666666666
+155,The Dark Knight,2008,6,471474,Batman: Gotham by Gaslight,"Thriller, Action, Animation, Science Fiction",Sam Liu,6.675,0.66330224,2018.0,0.3333333333333333
+155,The Dark Knight,2008,7,736073,"Batman: The Long Halloween, Part One","Animation, Mystery, Action, Crime",Chris Palmer,7.504,0.6599388,2021.0,0.3333333333333333
+155,The Dark Knight,2008,8,21683,Batman: Mystery of the Batwoman,"Adventure, Fantasy, Animation, Action, Science Fiction","Jennifer Graves, Tim Maltby, Curt Geda",6.696,0.65129435,2003.0,0.125
+155,The Dark Knight,2008,9,40662,Batman: Under the Red Hood,"Science Fiction, Crime, Action, Animation, Mystery",Brandon Vietti,7.75,0.6485126,2010.0,0.2857142857142857
+155,The Dark Knight,2008,10,16234,Batman Beyond: Return of the Joker,"Animation, Family, Action, Science Fiction",Curt Geda,7.306,0.64785635,2000.0,0.14285714285714285
+862,Toy Story,1995,1,10193,Toy Story 3,"Animation, Family, Comedy",Lee Unkrich,7.792,0.72212636,2010.0,0.75
+862,Toy Story,1995,2,863,Toy Story 2,"Animation, Comedy, Family","John Lasseter, Ash Brannon, Lee Unkrich",7.589,0.69511724,1999.0,0.75
+862,Toy Story,1995,3,301528,Toy Story 4,"Family, Adventure, Animation, Comedy, Fantasy",Josh Cooley,7.5,0.66878396,2019.0,0.8
+862,Toy Story,1995,4,237267,Banquet Busters,Animation,Dick Lundy,8.0,0.58165383,1948.0,0.25
+862,Toy Story,1995,5,202367,Tumble Weed Greed,Animation,Paul J. Smith,8.0,0.5730348,1969.0,0.25
+862,Toy Story,1995,6,234456,The Tenant's Racket,Animation,Sid Marcus,5.7,0.5716243,1963.0,0.25
+862,Toy Story,1995,7,485668,Eight-Ball Andy,Comedy,Edward Bernds,0.0,0.55745536,1948.0,0.25
+862,Toy Story,1995,8,202310,The Genie with the Light Touch,Animation,Paul J. Smith,8.0,0.55268437,1972.0,0.25
+862,Toy Story,1995,9,202414,Woody The Freeloader,Animation,Paul J. Smith,8.0,0.55028164,1968.0,0.25
+862,Toy Story,1995,10,235849,Buccaneer Woodpecker,Animation,Don Patterson,7.7,0.54999804,1953.0,0.25

@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Raw dataset
+data/raw/*
+
+# Generated artifacts
+artifacts/semantic/*.npy
+artifacts/semantic/*.npz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Processed data
+data/processed/
+
+.pytest_cache/
+artifacts/semantic/*.parquet

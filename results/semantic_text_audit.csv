@@ -1,0 +1,11 @@
+metric,value
+n_movies,429755
+n_semantic_texts,396254
+n_empty_semantic_text,33501
+max_seq_length,512
+n_over_250,520
+n_over_512,16
+token_p50,61
+token_p90,140
+token_p99,215
+token_max,782

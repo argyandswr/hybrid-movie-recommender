@@ -1,0 +1,41 @@
+query_movie_id,recommended_movie_id,title,similarity
+27205,962675,Respect the Jux,0.56087554
+27205,1359,American Psycho,0.5493959
+27205,438731,Vivegam,0.5439439
+27205,302150,The Hunter's Prayer,0.53778684
+27205,515853,Gultoo,0.53668374
+27205,119283,Parker,0.52558166
+27205,607231,ECCO,0.5196881
+27205,649409,No Sudden Move,0.5162989
+27205,610236,Making a Deal with the Devil,0.51626873
+27205,281,Strange Days,0.5151849
+157336,449575,The Beyond,0.6550192
+157336,1338318,Beachworld,0.65328825
+157336,970700,In Space with Markiplier: Part 2,0.6320019
+157336,48315,Time Runner,0.6253781
+157336,716355,Tomb,0.6165652
+157336,70981,Prometheus,0.60935974
+157336,553354,Space Explorers,0.55777156
+157336,650296,Explorers,0.5484489
+157336,502946,Mars,0.54476166
+157336,226540,Collider,0.5389757
+155,49026,The Dark Knight Rises,0.6962755
+155,414906,The Batman,0.696133
+155,14919,Batman: Mask of the Phantasm,0.6953855
+155,1371696,The Batman Chronicles,0.6816002
+155,408220,Justice League Dark,0.6684294
+155,471474,Batman: Gotham by Gaslight,0.66330224
+155,736073,"Batman: The Long Halloween, Part One",0.6599388
+155,21683,Batman: Mystery of the Batwoman,0.65129435
+155,40662,Batman: Under the Red Hood,0.6485126
+155,16234,Batman Beyond: Return of the Joker,0.64785635
+862,10193,Toy Story 3,0.72212636
+862,863,Toy Story 2,0.69511724
+862,301528,Toy Story 4,0.66878396
+862,237267,Banquet Busters,0.58165383
+862,202367,Tumble Weed Greed,0.5730348
+862,234456,The Tenant's Racket,0.5716243
+862,485668,Eight-Ball Andy,0.55745536
+862,202310,The Genie with the Light Touch,0.55268437
+862,202414,Woody The Freeloader,0.55028164
+862,235849,Buccaneer Woodpecker,0.54999804

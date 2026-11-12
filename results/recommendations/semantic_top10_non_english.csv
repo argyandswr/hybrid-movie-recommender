@@ -1,0 +1,21 @@
+query_movie_id,query_title,query_year,rank,recommended_movie_id,title,genres,directors,vote_average,similarity,year,genre_overlap
+77994,Yegor's Grief,2008,1,92735,Padeniye Kondora,Drama,Sebastián Alarcón,6.0,0.8279134,1982,0.0
+77994,Yegor's Grief,2008,2,101368,Night Accident,Mystery,Venyamin Dorman,8.0,0.8165598,1980,0.0
+77994,Yegor's Grief,2008,3,81702,Princess Mary,"Drama, Romance",Isidor Annensky,5.0,0.8142568,1955,0.0
+77994,Yegor's Grief,2008,4,65601,Shizofreniya,"Action, Thriller",Viktor Sergeev,3.0,0.80855805,1997,0.0
+77994,Yegor's Grief,2008,5,70231,Life by somersault,Comedy,Mikhail Kokshenov,8.0,0.8070369,2003,1.0
+77994,Yegor's Grief,2008,6,77831,This better not to know,"Comedy, Drama",Dmitriy Tomashpolskiy,1.0,0.8037094,2005,0.5
+77994,Yegor's Grief,2008,7,77075,Masakra,"Mystery, Thriller",Andrey Kudinenko,5.0,0.80130917,2010,0.0
+77994,Yegor's Grief,2008,8,64184,Volga River Flows,Romance,Aleksey Muradov,0.0,0.8011946,2009,0.0
+77994,Yegor's Grief,2008,9,64732,Nesluzhebnoe Zadanie,War,Vitaliy Vorobyov,4.5,0.80047864,2004,0.0
+77994,Yegor's Grief,2008,10,73328,Snezhnaya Koroleva,"Romance, Fantasy, Comedy",Elena Rayskaya,3.5,0.8001468,2006,0.3333333333333333
+64060,Sokrovishche,2008,1,77831,This better not to know,"Comedy, Drama",Dmitriy Tomashpolskiy,1.0,0.80168253,2005,0.3333333333333333
+64060,Sokrovishche,2008,2,74017,Ushchelye Alamasov,"Adventure, War",Vladimir Shnejderov,0.0,0.79879135,1937,0.0
+64060,Sokrovishche,2008,3,81702,Princess Mary,"Drama, Romance",Isidor Annensky,5.0,0.7799759,1955,0.3333333333333333
+64060,Sokrovishche,2008,4,65668,Chelovek Niotkuda,Action,Dmitriy Fiks,0.0,0.77742594,2010,0.0
+64060,Sokrovishche,2008,5,63919,Bluz Opadayushih Listyev,"Drama, Comedy, Thriller","Aleksandr Mikhaylov, Eduard Redzhepov",2.3,0.77565205,2006,0.25
+64060,Sokrovishche,2008,6,63864,"Nikto, Krome Nas...","War, Drama, Romance",Sergei Govorukhin,2.5,0.77444506,2008,0.25
+64060,Sokrovishche,2008,7,70231,Life by somersault,Comedy,Mikhail Kokshenov,8.0,0.7739545,2003,0.5
+64060,Sokrovishche,2008,8,73328,Snezhnaya Koroleva,"Romance, Fantasy, Comedy",Elena Rayskaya,3.5,0.7734634,2006,0.6666666666666666
+64060,Sokrovishche,2008,9,71047,First Encounter - Last Encounter,"Mystery, Drama, Comedy",Vitaliy Melnikov,5.857,0.7711811,1987,0.25
+64060,Sokrovishche,2008,10,62280,Chek,"Action, Family, Adventure","Aleksandr Borodyanskiy, Boris Giller",5.0,0.76563525,2000,0.0
