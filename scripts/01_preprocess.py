@@ -13,7 +13,7 @@ from movie_recommender.preprocessing.text import build_semantic_text
 from movie_recommender.utils.paths import (
     DATA_RAW_DIR,
     MOVIES_PARQUET,
-    SEMANTIC_ARTIFACTS_DIR,
+    SEMANTIC_BASELINE_ARTIFACTS_DIR,
 )
 
 RAW_PATH = DATA_RAW_DIR / "TMDB  IMDB Movies Dataset.csv"
@@ -50,8 +50,8 @@ def main() -> None:
         }
     )
 
-    SEMANTIC_ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
-    semantic_text_path = SEMANTIC_ARTIFACTS_DIR / "semantic_text.parquet"
+    SEMANTIC_BASELINE_ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
+    semantic_text_path = SEMANTIC_BASELINE_ARTIFACTS_DIR / "semantic_text.parquet"
     semantic_text_frame.to_parquet(
         semantic_text_path,
         index=False,

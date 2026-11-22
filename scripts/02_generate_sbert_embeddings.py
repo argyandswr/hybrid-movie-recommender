@@ -14,7 +14,7 @@ from movie_recommender.features.sbert import encode_semantic_texts
 from movie_recommender.utils.paths import (
     MOVIES_PARQUET,
     RESULTS_DIR,
-    SEMANTIC_ARTIFACTS_DIR,
+    SEMANTIC_BASELINE_ARTIFACTS_DIR,
 )
 
 MODEL_NAME = "sentence-transformers/multi-qa-distilbert-cos-v1"
@@ -26,7 +26,7 @@ def load_inputs() -> tuple[pd.DataFrame, pd.Series]:
     """Load and validate the preprocessing artifacts."""
     movies = pd.read_parquet(MOVIES_PARQUET).reset_index(drop=True)
     text_frame = pd.read_parquet(
-        SEMANTIC_ARTIFACTS_DIR / "semantic_text.parquet"
+        SEMANTIC_BASELINE_ARTIFACTS_DIR / "semantic_text.parquet"
     ).reset_index(drop=True)
 
     if len(movies) != len(text_frame):
@@ -99,9 +99,9 @@ def main() -> None:
             "token_length": token_lengths.to_numpy(),
         }
     )
-    SEMANTIC_ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
+    SEMANTIC_BASELINE_ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
     token_length_frame.to_parquet(
-        SEMANTIC_ARTIFACTS_DIR / "token_lengths.parquet",
+        SEMANTIC_BASELINE_ARTIFACTS_DIR / "token_lengths.parquet",
         index=False,
         compression="zstd",
     )
@@ -139,11 +139,11 @@ def main() -> None:
     elapsed_seconds = time.perf_counter() - start_time
 
     np.save(
-        SEMANTIC_ARTIFACTS_DIR / "embeddings.npy",
+        SEMANTIC_BASELINE_ARTIFACTS_DIR / "embeddings.npy",
         embeddings,
     )
     np.save(
-        SEMANTIC_ARTIFACTS_DIR / "movie_ids.npy",
+        SEMANTIC_BASELINE_ARTIFACTS_DIR / "movie_ids.npy",
         text_movie_ids,
     )
 
@@ -172,7 +172,7 @@ def main() -> None:
         "numpy_version": np.__version__,
         "pandas_version": pd.__version__,
     }
-    (SEMANTIC_ARTIFACTS_DIR / "config.json").write_text(
+    (SEMANTIC_BASELINE_ARTIFACTS_DIR / "config.json").write_text(
         json.dumps(config, indent=2),
         encoding="utf-8",
     )

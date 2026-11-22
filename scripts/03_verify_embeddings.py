@@ -1,23 +1,57 @@
 """Verify semantic embedding artifacts."""
 
+import argparse
 import json
+from pathlib import Path
 
 import numpy as np
 
-from movie_recommender.utils.paths import SEMANTIC_ARTIFACTS_DIR
+from movie_recommender.utils.paths import (
+    SEMANTIC_ARTIFACTS_DIR,
+    SEMANTIC_BASELINE_ARTIFACTS_DIR,
+)
 
 SPOT_CHECK_IDS = (27205, 157336, 155, 862)
 
+ARTIFACT_DIRS = {
+    "final": SEMANTIC_ARTIFACTS_DIR,
+    "baseline": SEMANTIC_BASELINE_ARTIFACTS_DIR,
+}
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Verify semantic embedding artifacts."
+    )
+    parser.add_argument(
+        "which",
+        nargs="?",
+        choices=sorted(ARTIFACT_DIRS),
+        default="final",
+        help="Artifact set to verify. Defaults to the final English-only set.",
+    )
+    parser.add_argument(
+        "--dir",
+        type=Path,
+        default=None,
+        help="Verify an explicit artifact directory instead.",
+    )
+    return parser.parse_args()
+
 
 def main() -> None:
-    embeddings_path = SEMANTIC_ARTIFACTS_DIR / "embeddings.npy"
-    ids_path = SEMANTIC_ARTIFACTS_DIR / "movie_ids.npy"
-    config_path = SEMANTIC_ARTIFACTS_DIR / "config.json"
+    args = parse_args()
+    artifact_dir = args.dir if args.dir is not None else ARTIFACT_DIRS[args.which]
+
+    embeddings_path = artifact_dir / "embeddings.npy"
+    ids_path = artifact_dir / "movie_ids.npy"
+    config_path = artifact_dir / "config.json"
 
     embeddings = np.load(embeddings_path, mmap_mode="r")
     movie_ids = np.load(ids_path)
     config = json.loads(config_path.read_text(encoding="utf-8"))
 
+    print("artifact dir:", artifact_dir)
     print("embedding shape:", embeddings.shape)
     print("embedding dtype:", embeddings.dtype)
     print("id shape:", movie_ids.shape)
@@ -49,6 +83,7 @@ def main() -> None:
     print("sample norm max:", sample_norms.max())
     print("finite sample:", np.isfinite(embeddings[:1000]).all())
 
+    print("config build method:", config.get("build_method", "inference"))
     print("config model:", config["model_name"])
     print("config n_texts:", config["n_texts"])
     print("config max_seq_length:", config["max_seq_length"])

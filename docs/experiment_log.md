@@ -125,8 +125,8 @@ Field kosong dilewati.
 
 **Output:**
 
-- `artifacts/semantic/semantic_text.parquet` (60.001.596 byte)
-- `artifacts/semantic/token_lengths.parquet` (1.721.495 byte)
+- `artifacts/semantic_baseline/semantic_text.parquet` (60.001.596 byte)
+- `artifacts/semantic_baseline/token_lengths.parquet` (1.721.495 byte)
 
 **Token audit:**
 
@@ -185,9 +185,9 @@ panjang teks seluruh dataset.
 
 | File | Ukuran |
 |---|---:|
-| `artifacts/semantic/embeddings.npy` | 1.217.292.416 byte |
-| `artifacts/semantic/movie_ids.npy` | 3.170.160 byte |
-| `artifacts/semantic/config.json` | 638 byte |
+| `artifacts/semantic_baseline/embeddings.npy` | 1.217.292.416 byte |
+| `artifacts/semantic_baseline/movie_ids.npy` | 3.170.160 byte |
+| `artifacts/semantic_baseline/config.json` | 638 byte |
 
 ## 7. Verifikasi Artifact
 

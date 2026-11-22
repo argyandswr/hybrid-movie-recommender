@@ -248,11 +248,13 @@ strategi truncation khusus.
 
 | File | Isi |
 |---|---|
-| `artifacts/semantic/semantic_text.parquet` | `id`, `semantic_text` untuk 429.755 film |
-| `artifacts/semantic/token_lengths.parquet` | `id`, `token_length` untuk 396.254 teks |
-| `artifacts/semantic/embeddings.npy` | Matriks `396254 x 768`, `float32` |
-| `artifacts/semantic/movie_ids.npy` | ID film, urutan sama dengan baris embedding |
-| `artifacts/semantic/config.json` | Konfigurasi eksperimen dan versi library |
+| `artifacts/semantic_baseline/semantic_text.parquet` | `id`, `semantic_text` untuk 429.755 film |
+| `artifacts/semantic_baseline/token_lengths.parquet` | `id`, `token_length` untuk 396.254 teks |
+| `artifacts/semantic_baseline/embeddings.npy` | Matriks `396254 x 768`, `float32` |
+| `artifacts/semantic_baseline/movie_ids.npy` | ID film, urutan sama dengan baris embedding |
+| `artifacts/semantic_baseline/config.json` | Konfigurasi eksperimen dan versi library |
+| `artifacts/semantic/embeddings.npy` | Matriks `388241 x 768`, `float32` untuk dataset final |
+| `artifacts/semantic/movie_ids.npy` | ID film final, urutan sama dengan baris embedding |
 
 Aturan alignment:
 
@@ -314,4 +316,5 @@ Urutan reproduksi Phase 3:
 11. Verify artifacts
 ```
 
-Semua parameter penting dicatat di `artifacts/semantic/config.json`.
+Semua parameter penting dicatat di `artifacts/semantic_baseline/config.json` dan
+`artifacts/semantic/config.json`.

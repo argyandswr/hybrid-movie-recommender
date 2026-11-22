@@ -146,10 +146,10 @@ pemilihan record, bukan ukuran kualitas film.
 | Artefak | Jumlah baris | Keterangan |
 |---|---:|---|
 | `data/processed/movies.parquet` | 429.755 | Master dataset setelah deduplikasi |
-| `artifacts/semantic/semantic_text.parquet` | 429.755 | ID dan `semantic_text` |
-| `artifacts/semantic/token_lengths.parquet` | 396.254 | Panjang token untuk teks non-kosong |
-| `artifacts/semantic/embeddings.npy` | 396.254 | Embedding SBERT 768 dimensi |
-| `artifacts/semantic/movie_ids.npy` | 396.254 | ID film yang sejajar dengan baris embedding |
+| `artifacts/semantic_baseline/semantic_text.parquet` | 429.755 | ID dan `semantic_text` |
+| `artifacts/semantic_baseline/token_lengths.parquet` | 396.254 | Panjang token untuk teks non-kosong |
+| `artifacts/semantic_baseline/embeddings.npy` | 396.254 | Embedding SBERT 768 dimensi |
+| `artifacts/semantic_baseline/movie_ids.npy` | 396.254 | ID film yang sejajar dengan baris embedding |
 
 ## 7. Ketersediaan Teks dan Metadata
 

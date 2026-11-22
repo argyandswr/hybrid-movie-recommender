@@ -1,0 +1,12 @@
+metrik,ambang,jumlah_film,persen
+panjang_karakter,30.0,4723,1.22
+panjang_karakter,50.0,13181,3.4
+panjang_karakter,80.0,35343,9.1
+panjang_karakter,100.0,55843,14.38
+panjang_karakter,150.0,115728,29.81
+jumlah_kata,5.0,5591,1.44
+jumlah_kata,8.0,13270,3.42
+jumlah_kata,10.0,20297,5.23
+jumlah_kata,15.0,45352,11.68
+median_karakter,,226,
+median_kata,,39,

@@ -10,6 +10,7 @@ description = "Hybrid Content-Based Movie Recommendation"
 readme = "README.md"
 requires-python = ">=3.11.0"
 dependencies = [
+    "langdetect>=1.0.9",
     "matplotlib>=3.11.2",
     "numpy>=2.4.6",
     "openpyxl>=3.1.5",
@@ -18,7 +19,7 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
     "sentence-transformers>=6.2.0",
-    "torch==2.15.0"
+    "torch==2.15.0",
 ]
 
 [tool.uv.sources]

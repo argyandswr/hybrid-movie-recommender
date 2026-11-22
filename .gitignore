@@ -38,3 +38,21 @@ data/processed/
 
 .pytest_cache/
 artifacts/semantic/*.parquet
+artifacts/semantic_baseline/*.parquet
+
+# Large semantic artifacts
+artifacts/semantic/*.npy
+artifacts/semantic/*.npz
+artifacts/semantic_baseline/*.npy
+artifacts/semantic_baseline/*.npz
+artifacts/metadata/*.npy
+artifacts/metadata/*.parquet
+artifacts/metadata/*.npz
+
+results/recommendations/semantic_all_top10*.csv
+results/recommendations/semantic_all_top10*.parquet
+
+artifacts/**/*.npy
+artifacts/**/*.npz
+artifacts/**/*.parquet
+artifacts/**/*.joblib

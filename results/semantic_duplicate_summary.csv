@@ -1,0 +1,15 @@
+metric,value
+grup overview kembar,1291.0
+grup dengan judul sama semua,465.0
+grup dengan judul berbeda,826.0
+grup berisi 2 film,887.0
+grup berisi 10 film atau lebih,38.0
+film dalam grup judul sama,1178.0
+film dalam grup judul berbeda,2958.0
+baris overview dalam grup kembar,4136.0
+total_baris,3882410.0
+baris_melibatkan_film_berteks_kembar,75031.0
+persen_baris_terdampak,1.93
+film_query_terdampak,17877.0
+pasangan_similarity_di_atas_0_9999,11744.0
+pasangan_dengan_teks_identik,11293.0

@@ -1,0 +1,51 @@
+query_movie_id,query_title,query_year,rank,recommended_movie_id,title,genres,directors,vote_average,similarity,year,genre_overlap
+27205,Inception,2010,1,521320,Blood and Steel,"Science Fiction, Action, Adventure",Geoff O'Rourke,10.0,0.42426404,2015.0,1.0
+27205,Inception,2010,2,750535,Monochrome: The Chromism,"Action, Science Fiction, Adventure",Kodi Zene,1.0,0.42426404,2019.0,1.0
+27205,Inception,2010,3,400607,Plasma,"Action, Adventure, Science Fiction",Rick Peters,0.0,0.42426404,2014.0,1.0
+27205,Inception,2010,4,386583,The Art of Human Salvage,"Action, Adventure, Science Fiction",Dempsey Tillman,0.0,0.42426404,2015.0,1.0
+27205,Inception,2010,5,49026,The Dark Knight Rises,"Action, Crime, Drama, Thriller",Christopher Nolan,7.777,0.4225771,2012.0,0.16666666666666666
+27205,Inception,2010,6,374720,Dunkirk,"War, Action, Drama",Christopher Nolan,7.456,0.4,2017.0,0.2
+27205,Inception,2010,7,577922,Tenet,"Action, Thriller, Science Fiction",Christopher Nolan,7.191,0.4,2020.0,0.5
+27205,Inception,2010,8,529083,Goldwing,"Action, Adventure, Animation, Science Fiction",Cheong-gi Kim,7.75,0.38729835,1978.0,0.75
+27205,Inception,2010,9,52068,Pendragon: Sword of His Father,"Adventure, Fantasy, Action, Science Fiction",Chad Burns,5.5,0.38729835,2008.0,0.75
+27205,Inception,2010,10,1373796,Blackstone,"Science Fiction, Thriller, Adventure, Action",Shahriar Galib,0.0,0.38729835,2024.0,0.75
+157336,Interstellar,2014,1,1124,The Prestige,"Drama, Mystery, Science Fiction",Christopher Nolan,8.203,0.52223295,2006.0,0.5
+157336,Interstellar,2014,2,529107,Inside 'Interstellar',Documentary,,7.0,0.492366,2015.0,0.0
+157336,Interstellar,2014,3,49026,The Dark Knight Rises,"Action, Crime, Drama, Thriller",Christopher Nolan,7.777,0.40291148,2012.0,0.16666666666666666
+157336,Interstellar,2014,4,155,The Dark Knight,"Drama, Action, Crime, Thriller",Christopher Nolan,8.512,0.40291148,2008.0,0.16666666666666666
+157336,Interstellar,2014,5,27205,Inception,"Action, Science Fiction, Adventure",Christopher Nolan,8.364,0.38138503,2010.0,0.5
+157336,Interstellar,2014,6,197701,Dusk to Dawn Drive-In Trash-O-Rama Show Vol. 1,"Fantasy, Science Fiction, Horror, Drama, Action, Adventure",,1.0,0.3692745,1996.0,0.5
+157336,Interstellar,2014,7,412915,Pirates of 1920,"Drama, Adventure, Action, Science Fiction","David Aylott, A.E. Coleby",5.0,0.3692745,1911.0,0.75
+157336,Interstellar,2014,8,927708,Satellites,"Science Fiction, Drama, Adventure",Spencer Anderson,0.0,0.3692745,,1.0
+157336,Interstellar,2014,9,260707,Port of Return,"Animation, Drama, Adventure, Romance, Science Fiction",Jung-Kuei Chang,2.2,0.3692745,2009.0,0.6
+157336,Interstellar,2014,10,286217,The Martian,"Drama, Adventure, Science Fiction",Ridley Scott,7.678,0.36363637,2015.0,1.0
+155,The Dark Knight,2008,1,49026,The Dark Knight Rises,"Action, Crime, Drama, Thriller",Christopher Nolan,7.777,0.7142856,2012.0,1.0
+155,The Dark Knight,2008,2,272,Batman Begins,"Action, Crime, Drama",Christopher Nolan,7.701,0.69436496,2005.0,0.75
+155,The Dark Knight,2008,3,1124,The Prestige,"Drama, Mystery, Science Fiction",Christopher Nolan,8.203,0.46291,2006.0,0.16666666666666666
+155,The Dark Knight,2008,4,437949,A Thought Unchained,"Action, Drama, Thriller, Crime",David C. Hoke,6.0,0.4364358,2014.0,1.0
+155,The Dark Knight,2008,5,915427,Gangster Vs State 2,"Action, Crime, Drama, Thriller",Kapil Batra,0.0,0.404061,2021.0,1.0
+155,The Dark Knight,2008,6,157336,Interstellar,"Adventure, Drama, Science Fiction",Christopher Nolan,8.417,0.40291148,2014.0,0.16666666666666666
+155,The Dark Knight,2008,7,7873,Harsh Times,"Crime, Drama, Thriller, Action",David Ayer,6.431,0.40291148,2005.0,1.0
+155,The Dark Knight,2008,8,25941,Harry Brown,"Thriller, Crime, Drama, Action",Daniel Barber,6.801,0.40291148,2009.0,1.0
+155,The Dark Knight,2008,9,565093,Rathaavara,"Crime, Drama, Thriller",Chandrashekar Bandiyappa,5.0,0.40089184,2015.0,0.75
+155,The Dark Knight,2008,10,358399,Capture of the Biddle Brothers,"Drama, Action, Crime",Edwin S. Porter,4.0,0.40089184,1902.0,0.75
+862,Toy Story,1995,1,863,Toy Story 2,"Animation, Comedy, Family","John Lasseter, Ash Brannon, Lee Unkrich",7.589,0.54073805,1999.0,0.75
+862,Toy Story,1995,2,10193,Toy Story 3,"Animation, Family, Comedy",Lee Unkrich,7.792,0.5161854,2010.0,0.75
+862,Toy Story,1995,3,13928,Knick Knack,"Animation, Family, Comedy",John Lasseter,7.052,0.51298916,1989.0,0.75
+862,Toy Story,1995,4,130925,Partysaurus Rex,"Family, Animation, Comedy","Mark A. Walsh, Dylan Brown",7.185,0.46358627,2012.0,0.75
+862,Toy Story,1995,5,16187,Buzz Lightyear of Star Command: The Adventure Begins,"Animation, Family, Comedy, Science Fiction, Adventure",Tad Stones,6.387,0.46169025,2000.0,0.8
+862,Toy Story,1995,6,9487,A Bug's Life,"Adventure, Animation, Comedy, Family","John Lasseter, Andrew Stanton",6.969,0.4588315,1998.0,1.0
+862,Toy Story,1995,7,287097,Up and Down,"Animation, Family",John Lasseter,5.778,0.45883146,1991.0,0.5
+862,Toy Story,1995,8,701087,The Amazing Adventures of Inspector Gadget,"Animation, Adventure, Comedy, Family",,0.0,0.45883146,1986.0,1.0
+862,Toy Story,1995,9,13925,Luxo Jr.,"Animation, Comedy",John Lasseter,7.071,0.45883146,1986.0,0.5
+862,Toy Story,1995,10,246673,Front and Back,"Animation, Family",John Lasseter,5.875,0.45883146,1991.0,0.5
+603,The Matrix,1999,1,604,The Matrix Reloaded,"Adventure, Action, Thriller, Science Fiction","Lana Wachowski, Lilly Wachowski",7.039,0.8362419,2003.0,0.5
+603,The Matrix,1999,2,605,The Matrix Revolutions,"Adventure, Action, Thriller, Science Fiction","Lana Wachowski, Lilly Wachowski",6.71,0.8362419,2003.0,0.5
+603,The Matrix,1999,3,624860,The Matrix Resurrections,"Science Fiction, Action, Adventure",Lana Wachowski,6.479,0.58536935,2021.0,0.6666666666666666
+603,The Matrix,1999,4,221495,The Matrix Recalibrated,"Documentary, Science Fiction",Josh Oreck,6.6,0.5330018,2004.0,0.3333333333333333
+603,The Matrix,1999,5,76757,Jupiter Ascending,"Science Fiction, Fantasy, Action","Lana Wachowski, Lilly Wachowski",5.433,0.52223295,2015.0,0.6666666666666666
+603,The Matrix,1999,6,83542,Cloud Atlas,"Drama, Science Fiction","Tom Tykwer, Lana Wachowski, Lilly Wachowski",6.884,0.46709937,2012.0,0.3333333333333333
+603,The Matrix,1999,7,591955,The Matrix Reloaded Revisited,Documentary,Josh Oreck,6.786,0.45584232,2004.0,0.0
+603,The Matrix,1999,8,684431,Making 'The Matrix',Documentary,Josh Oreck,7.933,0.45584232,1999.0,0.0
+603,The Matrix,1999,9,14543,The Matrix Revisited,Documentary,Josh Oreck,6.817,0.45584232,2001.0,0.0
+603,The Matrix,1999,10,503880,The Matrix Revolutions Revisited,Documentary,Josh Oreck,7.176,0.45584232,2004.0,0.0
